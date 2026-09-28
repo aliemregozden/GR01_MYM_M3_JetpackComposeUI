@@ -11,7 +11,8 @@ import androidx.compose.material3.Scaffold
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
-import androidx.compose.ui.tooling.preview.Preview
+import com.leadercoders.gr01_mym_m3_jetpackcomposeui.ders2.D322_TemelDizilimler
+import com.leadercoders.gr01_mym_m3_jetpackcomposeui.ders2.D326_ProfilKarti
 import com.leadercoders.gr01_mym_m3_jetpackcomposeui.ui.theme.GR01_MYM_M3_JetpackComposeUITheme
 
 class MainActivity : ComponentActivity() {
@@ -21,11 +22,14 @@ class MainActivity : ComponentActivity() {
         setContent {
             GR01_MYM_M3_JetpackComposeUITheme {
                 Scaffold(modifier = Modifier.fillMaxSize()) { innerPadding ->
-                 Box(modifier = Modifier.padding(innerPadding)){
+                    Box(modifier = Modifier.padding(innerPadding)) {
+                        //DERS1
+                        //SelamlamaEkrani()
 
-SelamlamaEkrani()
-
-                 }
+                        ///DERS2
+                      //  D322_TemelDizilimler()
+                        D326_ProfilKarti()
+                    }
 
                 }
 
@@ -33,8 +37,11 @@ SelamlamaEkrani()
 
         }
 
-    }}
+    }
+}
+
 @Composable
 fun SelamlamaEkrani() {
     Text("Merhaba Dünya! İlk Compose uygulamam çalışıyor 🎉")
 }
+

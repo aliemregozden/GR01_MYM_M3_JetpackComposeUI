@@ -13,6 +13,8 @@ import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import com.leadercoders.gr01_mym_m3_jetpackcomposeui.ders2.D322_TemelDizilimler
 import com.leadercoders.gr01_mym_m3_jetpackcomposeui.ders2.D326_ProfilKarti
+import com.leadercoders.gr01_mym_m3_jetpackcomposeui.ders3.D332_TextBileseni
+import com.leadercoders.gr01_mym_m3_jetpackcomposeui.ders3.D333_ButonCesitleri
 import com.leadercoders.gr01_mym_m3_jetpackcomposeui.ui.theme.GR01_MYM_M3_JetpackComposeUITheme
 
 class MainActivity : ComponentActivity() {
@@ -28,7 +30,10 @@ class MainActivity : ComponentActivity() {
 
                         ///DERS2
                       //  D322_TemelDizilimler()
-                        D326_ProfilKarti()
+                        //D326_ProfilKarti()
+                    //Ders3
+                      D332_TextBileseni()
+                        //   D333_ButonCesitleri()
                     }
 
                 }
